@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.column {
+  width: calc(100% / 3);
+  height: 100vh;
+  float: left;
+}
+
+  html, body {
+  margin: 0px;
+  padding: 0px;
+  }
+
+.left {
+  background-color: #4A90E2;
+}
+
+.center {
+  background-color: #50E3C2;
+}
+
+.right {
+  background-color: yellow;
+  padding-top: calc(100vh - 300px);
+}
+
+.bottom-right {
+  background-color: red;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 300px;
+}
